@@ -1,3 +1,3 @@
-public User{
-
+public class User{
+//prueba
 }
