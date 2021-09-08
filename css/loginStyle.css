@@ -1,13 +1,10 @@
 body
 {
-    height: 100%;
-}
-
-body
-{
     display: flex;
     align-items: center;
-    background-image: radial-gradient(circle 248px at center, #a5c2c3 0%, #e48989 47%, #b8cad8 100%);
+    justify-content: center;
+    height: 100%;
+    background-image: radial-gradient(circle 248px at center, #97a2a3 0%, #5a5656 47%, #464949 100%);
 }
 
 .singin
@@ -30,7 +27,7 @@ body
 
 .imgLogin
 {
-    height: 260px;
+    height: 220px;
     width: 220px;
     justify-content: center;
 }
