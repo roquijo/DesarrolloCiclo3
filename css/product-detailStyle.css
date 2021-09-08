@@ -128,6 +128,10 @@ background: #eeebeb;
 	position: relative;
 	overflow: hidden;
 	height: 100%;
+<<<<<<< HEAD
+=======
+	float: right;
+>>>>>>> Detalles del Producto-Plantilla
 	width: 50%;
 	display: inline-block;
 }
