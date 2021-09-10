@@ -6,52 +6,25 @@
     <title>Perfil de usuario</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/profileStyle.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='#'>
     <script src='main.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div id="nav-placeholder">
 
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Mercado</a>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" role="navigation">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current= "true" href="login.html">Productos</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" onclick="alert('Proyecto Desarollado Por Jorge Rojas, Gustavo Ramirez, Julian Garzon, Javier Quintero, Diego vega')">Acerca de</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current= "true" href="login.html">Ingresar</a>
-                    </li>
-                </ul>
-
-                <form class="d-flex" style="margin-top:13px;">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Buscar">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
-        </div>
-    </nav> 
+  </div>
+  
+  <script>
+  $(function(){
+      $("#nav-placeholder").load("nav.html");
+  });
+  </script>
     <div class="container">
-        <div class="main-body">
-        
-              <!-- Breadcrumb -->
-              <nav aria-label="breadcrumb" class="main-breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item"><a href="javascript:void(0)">User</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">User Profile</li>
-                </ol>
-              </nav>
-              <!-- /Breadcrumb -->
-        
+        <div class="main-body">        
               <div class="row gutters-sm">
                 <div class="col-md-4 mb-3">
                   <div class="card">
