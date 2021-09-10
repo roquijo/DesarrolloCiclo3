@@ -178,11 +178,15 @@ input[type="number"] {
   .number-input {
 	border: 4px solid rgb(194, 191, 191);
 	display: inline-flex;
+	float: right;
   }
   
   .number-input,
   .number-input * {
 	box-sizing: border-box;
+  }
+  .prueba{
+	  float: left;
   }
   
   .number-input button {
