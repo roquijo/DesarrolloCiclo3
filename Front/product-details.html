@@ -47,16 +47,15 @@
    <span class="buy">COMPRAR YA!!</span>
  </button>
 	<!-- End Button buying -->
-	<select name="Cant">
-		<option value="1">1</option> 
-		<option value="2">2</option> 
-		<option value="3">3</option>
-		<option value="4">4</option> 
-		<option value="5">5</option> 
-	 </select>
+	
+	<span class="number-input">
+		<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+		<input class="quantity" min="1" name="quantity" value="1" type="number">
+		<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+	</span>
 
 </div>
-			
+
 </div>
 	
 <!-- 	End	Product details   -->
