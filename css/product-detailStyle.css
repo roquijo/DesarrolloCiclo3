@@ -67,9 +67,18 @@ background: #eeebeb;
 
 .control{
 	position: absolute;
-	bottom: 20%;
-	left: 22.8%;
+	bottom: 25%;
+	left: 6%;
+	display: inline-flex;
+	
+}
 
+
+.control2{
+	position: absolute;
+	bottom: 25%;
+	left: 75%;
+	display: inline-flex;
 	
 }
 /* the Button */
@@ -164,6 +173,8 @@ background: #eeebeb;
 
 
 
+
+
 input[type="number"] {
 	-webkit-appearance: textfield;
 	-moz-appearance: textfield;
@@ -176,7 +187,7 @@ input[type="number"] {
   }
   
   .number-input {
-	border: 4px solid rgb(194, 191, 191);
+	border: 1px solid rgb(206, 206, 206);
 	display: inline-flex;
   }
   
@@ -190,10 +201,10 @@ input[type="number"] {
 	-webkit-appearance: none;
 	background-color: transparent;
 	border: none;
-	align-items: center;
-	justify-content: center;
-	width: 3rem;
-	height: 3rem;
+	align-items: left;
+	justify-content: left;
+	width: 1.5rem;
+	height: 1.5rem;
 	cursor: pointer;
 	margin: 0;
 	position: relative;
@@ -204,9 +215,9 @@ input[type="number"] {
 	display: inline-block;
 	position: absolute;
 	content: '';
-	width: 1rem;
-	height: 5px;
-	background-color: #000000;
+	width: 0.8rem;
+	height: 2px;
+	background-color: #999393;
 	transform: translate(-50%, -50%);
   }
   .number-input button.plus:after {
@@ -214,13 +225,13 @@ input[type="number"] {
   }
   
   .number-input input[type=number] {
-	font-family: sans-serif;
-	max-width: 3rem;
-	padding: .3rem;
+	font-family: "Comic Sans MS,arial,verdana";
+	max-width: 1.5rem;
+	padding: 0.1em;
 	border: solid rgb(179, 176, 176);
 	border-width: 0 2px;
-	font-size: 2rem;
-	height: 3rem;
+	font-size: 1rem;
+	height: 1.5rem;
 	font-weight: bold;
 	text-align: center;
   }
