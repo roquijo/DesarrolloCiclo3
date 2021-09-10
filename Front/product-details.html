@@ -12,7 +12,7 @@
 	<div class="product-details">
 		
 		
-	<h1>G2 Silla</h1>
+	<font size=6 face="Comic Sans MS,arial,verdana"><b>G2 Silla</b></font>
 
 	<span class="hint-star star">
 		<i class="fa fa-star" aria-hidden="true"></i>
@@ -24,7 +24,13 @@
 		
 	<br><br>
 <!-- The most important information about the product -->
-		<i class="information">"La poderosisima Silla de G2, los mejores se han sentado en esta silla "</i>
+	<i  class="information">"La poderosisima Silla de G2, los mejores se han sentado en esta silla 
+				Como MixWell, Koldamente, Nukye, grandes jugadores profesionales de G2. Firmada
+				por el mismiso Lucas Rojo. Con esta silla no tendras mas excusas asi que pasaras de ser
+				un completo fracaso en los E-Sport a ser la estrella del Torneo."
+			
+		</i>
+
 
 		
 		
@@ -41,16 +47,15 @@
    <span class="buy">COMPRAR YA!!</span>
  </button>
 	<!-- End Button buying -->
-	<select name="Cant">
-		<option value="1">1</option> 
-		<option value="2">2</option> 
-		<option value="3">3</option>
-		<option value="4">4</option> 
-		<option value="5">5</option> 
-	 </select>
+	
+	<span class="number-input">
+		<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+		<input class="quantity" min="1" name="quantity" value="1" type="number">
+		<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+	</span>
 
 </div>
-			
+
 </div>
 	
 <!-- 	End	Product details   -->
