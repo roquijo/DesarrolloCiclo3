@@ -31,8 +31,12 @@ function verificarPasswords() {
     // Verificamos si las constraseñas no coinciden
 
     if (password.value == "") {
+        
         // Si las constraseñas están vacías mostramos un mensaje 
         document.getElementById("empty").classList.add("mostrar");
+
+        // Si las contraseñas coinciden ocultamos el mensaje de error
+        document.getElementById("error").classList.remove("mostrar");
         
 
         return false;
