@@ -54,6 +54,9 @@ function verificarPasswords() {
 
         } else {
 
+            // Si las contraseñas ya no están vacías ocultamos el mensaje de error
+            document.getElementById("empty").classList.remove("mostrar");
+            
             // Si las contraseñas coinciden ocultamos el mensaje de error
             document.getElementById("error").classList.remove("mostrar");
 
